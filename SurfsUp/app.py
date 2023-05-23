@@ -134,11 +134,11 @@ def homepage():
            f"- Latest year of dates and temperatures for most active station<br/>"
            f" <br/>"
            f"Route: /api/v1.0/[start]<br/>"
-           f"- Min, max, and avg temperature from start to latest date<br/>"
+           f"- Min, max, and avg temperature from start to latest date as JSON<br/>"
            f"- Replace [start] with date in YYYY-MM-DD format (no brackets)<br/>"
            f" <br/>"
            f"Route: /api/v1.0/[start]/[end]<br/>"
-           f"- Min, max, and avg temperature for custom date range<br/>"
+           f"- Min, max, and avg temperature for custom date range as JSON<br/>"
            f"- Replace [start] and [end] with date in YYYY-MM-DD format (no brackets)<br/>"
            )
 
